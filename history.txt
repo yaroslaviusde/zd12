@@ -1,0 +1,28 @@
+  159  git remote -v
+  160  git branch feature
+  161  git switch feature
+  162  ls -al
+  163  touch README.md
+  164  ls -al
+  165  nano .gitignore
+  166  git status
+  167  git add .gitignore README.md
+  168  git status
+  169  git commit -m "Readme and gitignore"
+  170  git log --oneline
+  171  git push -u origin feature
+  172  git status
+  173  git log --oneline
+  174  git remote -v
+  175  git remote set-url origin git@github.com:yaroslaviusde/zd12.git
+  176  git remote -v
+  177  git push -u origin feature
+  178  git commit --amend -m "Readme and gitignore amend"
+  179  git push
+  180  git push -u origin feature
+  181  git push --force-with-lease
+  182  git switch main
+  183  git branch
+  184  git merge feature
+  185  git status
+  186  history
